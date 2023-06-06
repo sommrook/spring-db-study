@@ -13,6 +13,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+// 상위 패키지로 올라가서 @SpringBootApplication를 찾음 => 해당 부분을 설정으로 사용함
 @SpringBootTest
 class ItemRepositoryTest {
 
